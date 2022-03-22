@@ -11,15 +11,14 @@ Aplikasi ini dibuat untuk memudahkan pemain mencari tau seputar aktifitas club d
 
 ## Entitas
 1. Club
-2. Manager Club
+2. Official
 3. Pemain 
 4. Pengumuman
-5. Pendaftaran
 
 
 ## Atribut
 1. Club (nama_club, alamat, sejarah_club)
-2. Manager Club (id, nama, no_hp, tempat_lahir, tanggal_lahir, alamat)
+2. Official (id, nama, jabatan, no_hp, tempat_lahir, tanggal_lahir, alamat)
 3. Pemain (id, nama, no_punggung, no_hp, tempat_lahir, tanggal_lahir, alamat)
 4. Pengumuman (jenis_pengumuma, isi_pengumuman)
-5. Pendaftaran (nama, email, no_hp, tempat_lahir, tanggal_lahir, alamat)
+
