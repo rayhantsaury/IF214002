@@ -16,3 +16,4 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 4. Berita (jenis_berita, isi_berita)
 5. Register (nama, email, tempat_tanggal_lahir)
 
+![image](https://user-images.githubusercontent.com/86096057/159870845-b95c7510-9993-4af6-a9c9-11f571dd1271.png)
