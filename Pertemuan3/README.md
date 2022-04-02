@@ -14,7 +14,7 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 
 ## Entitas dan Atribut
 Admin
-1. * uset name
+1. *uset name
 2. * Password
 
 Club
