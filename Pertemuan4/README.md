@@ -4,8 +4,7 @@
 
 # Deskripsi Proyek
 Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola serta melihat aktivitas club dan pemain, dengan fitur-fitur sebagai berikut :
-1. Menampilkan halaman club 
+1. Menampilkan halaman club mencakup Informasi Club, Prestasi dan Media Sosial Club
 2. Menampilkan halaman data pelatih dan pemain 
-3. Menampilkan halaman beita
-4. Menampilkan halaman media
-5. menampilkan halaman register untuk pemain baru yang mau bergabung
+3. Menampilkan halaman berita
+4. menampilkan halaman register untuk pemain baru yang mau bergabung
