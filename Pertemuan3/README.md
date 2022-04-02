@@ -13,6 +13,7 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 
 
 ## Entitas dan Atribut
+# Admin
 1. Admin (user_name, password)
 2. Club (informasi_club, alamat, sejarah_club, prestasi)
 3. Official (id, nama, jabatan, no_hp, tempat_tanggal_lahir, alamat)
