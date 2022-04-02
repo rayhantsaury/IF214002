@@ -14,39 +14,39 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 
 ## Entitas dan Atribut
 Admin
-1. *uset name
-2. * Password
+1. *User name
+2. *assword
 
 Club
 1. Informasi club
 2. Alamat 
-3. * Sejarahclub 
-4. Prestasi)
+3. *Sejarah Club 
+4. Prestasi
 
 Official
-1. * Id
+1. *Id
 2. Nama
 3. Jabatan
-4. * No Hp 
+4. *No Hp 
 5. Tempat Tanggal Lahir 
 6. Alamat
 
 Pemain
-1. * Id 
+1. *Id 
 2. Nama
-3. * No Punggung
+3. *No Punggung
 4. Posisi
-5. * No Hp
+5. *No Hp
 6. Tempat Tanggal Lahir
 7. Alamat
 
 Berita
-1. * Id
+1. *Id
 2. Jenis Berita
 3. Isi Berita
 
 Register 
-1. * Email
+1. *Email
 2. Nama
 3. Tempat Tanggal Lahir
 
