@@ -15,7 +15,7 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 ## Entitas dan Atribut
 Admin
 1. *User name
-2. *assword
+2. *Password
 
 Club
 1. Informasi club
