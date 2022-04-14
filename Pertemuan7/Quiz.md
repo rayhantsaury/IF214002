@@ -14,5 +14,5 @@ contoh data historis terakhir update berita di aplikasi Web Club Futsal
 ||Histori Baca|
 |---|---|
 |PK|Id_berita|
-|PK|Tanggal_Baca|
-||Isi_Berita|
+|PK|Tanggal_update|
+||Isi_berita|
