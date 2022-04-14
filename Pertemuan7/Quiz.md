@@ -14,9 +14,9 @@ contoh data historis di suatu aplikasi
 ||Gaji Bulanan|
 ||Tangga Mulai Gaji|
 
-sql
+```sql
 CREATE TABLE
-
+```
 ```phyton
 print("Quiz Pertemuan 7")
 print("karyawan")
