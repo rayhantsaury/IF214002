@@ -3,16 +3,30 @@
 
 # Quiz
 ## Pemanfaatan data historis
-contoh data historis terakhir update berita di aplikasi Web Club Futsal
+contoh data historis di suatu aplikasi
 ## Tabel Terakhir di Update
 ||Berita|
 |---|---|
 |PK|ID|
-||Jenis_berita|
-||Isi_berita|
+||Nama|
+||Alamat|
+||Jabatan|
+||Gaji Bulanan|
+||Tangga Mulai Gaji|
 
-||Histori Baca|
-|---|---|
-|PK|Id_berita|
-|PK|Tanggal_update|
-||Isi_berita|
+
+```sql
+CREATE TABLE
+
+```phyton
+print("Quiz Pertemuan 7")
+print("karyawan")
+databaseproducts_ tbl(
+   id_karyawan INT NOT NULL AUTO_INCREMENT,
+   Nama_karyawan VARCHAR(100) NOT NULL,
+   product_manufacturer VARCHAR(40) NOT NULL,
+   submission_date DATE,
+   PRIMARY KEY ( product_id )
+);
+
+
