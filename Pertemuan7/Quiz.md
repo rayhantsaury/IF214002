@@ -13,6 +13,6 @@ contoh data historis terakhir update berita
 
 ||Histori Baca|
 |---|---|
-||Id_berita|
+|PK||Id_berita|
+|PK||Tanggal_Baca|
 ||Isi_Berita|
-||Tanggal_Baca|
