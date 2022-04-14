@@ -3,7 +3,7 @@
 
 # Quiz
 ## Pemanfaatan data historis
-contoh data historis terakhir update berita
+contoh data historis terakhir update berita di aplikasi Web Club Futsal
 ## Tabel Terakhir di Update
 ||Berita|
 |---|---|
