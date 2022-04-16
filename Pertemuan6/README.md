@@ -1,8 +1,6 @@
 
 # Tabel Normalisasi
 
-# Tabel Normalisasi
-
 ## Admin
 |🔑ID_Admin|Username|Password|
 |---|-------|------|
@@ -56,4 +54,4 @@
 |🔑ID_Berita|Jenis_Berita|Isi_Berita|
 |---|-------|------|
 |1|Turnamen|Bagja Buah Cup 2022 akan dilaksakan seusai hari eaya Idul firti|
-|2| Kesehatan|Salah satu pemain FC Omicron mengalami cerdra ringan saat bertanding melawan Naura FC pada lanjutan Liga U-20 Garsel|
+|2|Kesehatan|Salah satu pemain FC Omicron mengalami cerdra ringan saat bertanding melawan Naura FC pada lanjutan Liga U-20 Garsel|
