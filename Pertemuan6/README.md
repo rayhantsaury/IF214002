@@ -12,7 +12,7 @@
 ## Club
 |🔑Nama_Club|Alamat_Club|Sejarah_Club|Prestasi_Club|Media_Sosiasl_Club|
 |---|-------|------|--|---|
-|1|FC Omicron|Cigedug-Garut|Didirikan tahun 2022|Juara 2 Trofeo U-15|Ig : @fcomicron|
+|FC Omicron|Cigedug-Garut|Didirikan tahun 2022|Juara 2 Trofeo U-15|Ig : @fcomicron|
 
 
 ## Tabel Admin Lab
