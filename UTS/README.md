@@ -23,10 +23,15 @@
 - Komponen yang Dipakai
 
   ERD biasanya erat kaitannya dengan Data Flow Diagram (DFD) untuk menampilkan sebuah data store. Tujuannya adalah untuk memvisualisasikan bagaimana proses data dapat saling terhubung dan dapat mengkonstruksi data relasional. Berikut ini kami akan memberikan beberapa penjelasan mengenai istilah dan komponen apa saja yang berada pada ERD.
+  
 a)	Entitas
-Entitas merupakan kumpulan objek yang dapat teridentifikasi secara unik. Di dalam ERD, entitas dilambangkan dengan bentuk persegi panjang. Kemudian, entitas lemah akan digambarkan dengan bentuk persegi panjang kecil di dalam persegi panjang yang besar. Untuk entitas lemah digunakan untuk melambangkan entitas yang memiliki hubungan dengan entitas lain (tidak unik).
+
+   Entitas merupakan kumpulan objek yang dapat teridentifikasi secara unik. Di dalam ERD, entitas dilambangkan dengan bentuk persegi panjang. Kemudian, entitas lemah akan digambarkan dengan bentuk persegi panjang kecil di dalam persegi panjang yang besar. Untuk entitas lemah digunakan untuk melambangkan entitas yang memiliki hubungan dengan entitas lain (tidak unik).
+
 b)	Atribut
-Untuk setiap entitas sendiri mempunyai atribut yang berfungsi untuk mendeskripsikan karakteristik dari entitas tersebut. Untuk penggunaan atribut kunci (key) adalah pembeda dari entitas dan atribut yang mana, diwakili dengan simbol ellips. Berikut merupakan beberapa jenis atribut yang sering digunakan:
+
+   Untuk setiap entitas sendiri mempunyai atribut yang berfungsi untuk mendeskripsikan karakteristik dari entitas tersebut. Untuk penggunaan atribut kunci (key) adalah pembeda dari entitas dan atribut yang mana, diwakili dengan simbol ellips. Berikut merupakan beberapa jenis atribut yang sering digunakan:
+
 o	Atribut Kunci
 Merupakan atribut yang digunakan untuk menentukan data yang bersifat unik. Pada umumnya, data dari atribut key berbentuk angka. Contohnya NIM (Nomor Induk Mahasiswa), No. KTP, SIM, NPWP, dan lain sebagainya.
 o	Atribut Simpel
@@ -37,13 +42,18 @@ o	Atribut Gabungan
 Yaitu atribut yang berasal dari susunan atribut yang lebih kecil dalam artian tertentu. Contohnya adalah data terkait nama lengkap, yang terdiri dari nama depan, tengah, dan belakang.
 o	Atribut Derivatif
 Merupakan atribut yang berasal dari atribut lain dan tidak bersifat wajib untuk ditulis pada ERD. Contohnya adalah usia, selisih waktu, kelas atau ruang, dan lain sebagainya.
+
 c)	Relasi
-Relasi adalah sebuah hubungan antara beberapa jenis entitas yang berasal dari himpunan entitas yang berbeda. Bentuk relasi ini akan dilambangkan dengan bentuk belah ketupat. Terdapat tiga jenis relasi yang digunakan dalam ERD, diantaranya adalh sebagai berikut:
+
+   Relasi adalah sebuah hubungan antara beberapa jenis entitas yang berasal dari himpunan entitas yang berbeda. Bentuk relasi ini akan dilambangkan dengan bentuk belah ketupat. Terdapat tiga jenis relasi yang digunakan dalam ERD, diantaranya adalh sebagai berikut:
+
 o	One to One
 Yang berarti, setiap entitas hanya boleh memiliki relasi dengan satu entitas yang lain. Contohnya adalah data mahasiswa dengan data NIM.
 o	One to Many
 Merupakan hubungan antara satu entitas dengan beberapa entitas, dan begitu pula sebaliknya. Contoh implementasinya adalah data terkait guru dengan siswa Sekolah Dasar (SD).
 o	Many to Many
 Merupakan hubungan antara beberapa entitas yang memiliki lebih dari satu relasi. Contohnya adalah siswa SMP dengan data terkait ekstrakurikuler yang tersedia.
+
 d)	Garis
-Garis berfungsi untuk menghubungkan antar atribut sebagai bentuk hubungan entitas yang model dari diagram ER itu sendiri.
+
+   Garis berfungsi untuk menghubungkan antar atribut sebagai bentuk hubungan entitas yang model dari diagram ER itu sendiri.
