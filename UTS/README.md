@@ -72,10 +72,9 @@ d)	Garis
    Garis berfungsi untuk menghubungkan antar atribut sebagai bentuk hubungan entitas yang model dari diagram ER itu sendiri.
 
 # Rancang solusi digital dari satu permasalahan yang ada di sekitar Anda. 
-## Sistem Aplikasi Club Futsal Berbasis Web
+Sistem Aplikasi Club Futsal Berbasis Web
 
 # Deskripsikan solusi digital
-## Deskripsi Proyek
 Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola serta melihat aktivitas club dan pemain, dengan fitur-fitur sebagai berikut :
 1. Menampilkan halaman club mencakup informasi club, prestasi club, dan media sosial club
 2. Menampilkan halaman data pelatih dan pemain 
