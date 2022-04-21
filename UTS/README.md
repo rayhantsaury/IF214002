@@ -11,7 +11,7 @@
 
 # Jawaban
 1.	ERD adalah model atau rancangan untuk membuat database, supaya lebih mudah dalam menggambarkan data yang memiliki hubungan atau relasi dalam bentuk sebuah desain. Dengan adanya ER diagram, maka sistem database yang terbentuk dapat digambarkan dengan lebih terstruktur dan terlihat rapi.
-•	Jenis Model Data
+-	Jenis Model Data
 Untuk menyusun sistem database yang tepat, maka kita harus menentukan terlebih dahulu mengenai jenis model data yang akan digunakan. Yang mana, hal tersebut akan sangat berpengaruh nantinya pada pengembangan aplikasi sesuai dengan kebutuhan proyek bisnis.
 Model ER konseptual sangat berguna untuk mendokumentasikan segala bentuk arsitektur data pada sebuah organisasi. Model ini dapat digunakan untuk satu atau lebih jenis model data logis. Tujuan dari pengembangannya adalah untuk membangun struktur metadata untuk data master entitas dan set ER model logis.
 1)	Data Logis
@@ -19,7 +19,7 @@ Jenis yang pertama adalah model data logis, dimana untuk proses pembuatannya tid
 
 2)	Data Fisik
 Model data fisik memungkinkan untuk dikembangkan dari model data logis. Model ini yang digunakan sebagai database. Model data fisik dipakai dalam menentukan metadata struktural dalam sistem manajemen database sebagai objek penyimpanan data yang bersifat relasional, contohnya tabel, indeks dan trigger pada database.
-•	Komponen yag Dipakai
+- Komponen yag Dipakai
 ERD biasanya erat kaitannya dengan Data Flow Diagram (DFD) untuk menampilkan sebuah data store. Tujuannya adalah untuk memvisualisasikan bagaimana proses data dapat saling terhubung dan dapat mengkonstruksi data relasional. Berikut ini kami akan memberikan beberapa penjelasan mengenai istilah dan komponen apa saja yang berada pada ERD.
 1)	Entitas
 Entitas merupakan kumpulan objek yang dapat teridentifikasi secara unik. Di dalam ERD, entitas dilambangkan dengan bentuk persegi panjang. Kemudian, entitas lemah akan digambarkan dengan bentuk persegi panjang kecil di dalam persegi panjang yang besar. Untuk entitas lemah digunakan untuk melambangkan entitas yang memiliki hubungan dengan entitas lain (tidak unik).
