@@ -71,6 +71,16 @@ d)	Garis
 
    Garis berfungsi untuk menghubungkan antar atribut sebagai bentuk hubungan entitas yang model dari diagram ER itu sendiri.
 
+# Rancang solusi digital dari satu permasalahan yang ada di sekitar Anda. 
+## Sistem Aplikasi Club Futsal Berbasis Web
+
+# Deskripsikan solusi digital
+## Deskripsi Proyek
+Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola serta melihat aktivitas club dan pemain, dengan fitur-fitur sebagai berikut :
+1. Menampilkan halaman club mencakup informasi club, prestasi club, dan media sosial club
+2. Menampilkan halaman data pelatih dan pemain 
+3. Menampilkan halaman beita
+4. menampilkan halaman register untuk pemain baru yang mau bergabung
 
 # ERD notasi Chen dari struktur data yang mewakili fitur2 di solusi digital
 ![image](https://user-images.githubusercontent.com/86096057/159870845-b95c7510-9993-4af6-a9c9-11f571dd1271.png)
@@ -83,8 +93,8 @@ d)	Garis
 ## Admin
 |🔑ID_Admin|Username|Password|
 |---|-------|------|
-|1|ryhnts|ABCcc83m|
-|2| rjljldn|Gdjcks29|
+|011|ryhnts|ABCcc83m|
+|012| rjljldn|Gdjcks29|
 
 ## Club
 |🔑Nama_Club|Alamat_Club|Sejarah_Club|Prestasi_Club|Media_Sosiasl_Club|
@@ -132,5 +142,5 @@ d)	Garis
 ## Tabel Laboratorium
 |🔑ID_Berita|Jenis_Berita|Isi_Berita|
 |---|-------|------|
-|1|Turnamen|Bagja Buah Cup 2022 akan dilaksakan seusai hari eaya Idul firti|
-|2|Kesehatan|Salah satu pemain FC Omicron mengalami cerdra ringan saat bertanding melawan Naura FC pada lanjutan Liga U-20 Garsel|
+|111|Turnamen|Bagja Buah Cup 2022 akan dilaksakan seusai hari raya Idul firti|
+|112|Kesehatan|Salah satu pemain FC Omicron mengalami cerdra ringan saat bertanding melawan Naura FC pada lanjutan Liga U-20 Garsel|
