@@ -70,3 +70,10 @@ o	Many to Many
 d)	Garis
 
    Garis berfungsi untuk menghubungkan antar atribut sebagai bentuk hubungan entitas yang model dari diagram ER itu sendiri.
+
+
+DIAGRAM
+![image](https://user-images.githubusercontent.com/86096057/159870845-b95c7510-9993-4af6-a9c9-11f571dd1271.png)
+
+ERD
+![image](https://user-images.githubusercontent.com/86096057/161379151-0ab12ac4-5f23-429b-a2a5-ed9538435e18.png)
