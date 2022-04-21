@@ -1,3 +1,5 @@
+# Soal UTS
+
 1. Basis data relasional dapat langsung dibangun menggunakan perintah SQL di sistem basis data seperti MySQL, dsb tanpa ada perancangan terlebih dahulu. 
 
 Jelaskan apa keuntungan melakukan perancangan basis data terlebih dahulu (menggunakan ERD ataupun Class Diagram) !
@@ -13,3 +15,5 @@ B. Buat list fitur-fitur yang ada pada solusi digital tersebut
 C. Buat ERD notasi Chen dari struktur data yang mewakili fitur2 di solusi digital tersebut
 
 D. Buat ERD notasi Crow Foot dari struktur data logical yang mewakili fitur2 di solusi digital tersebut, lengkap dengan keys, tipe data, dan normalisasi hingga bentuk ke 3
+
+# Jawaban UTS
