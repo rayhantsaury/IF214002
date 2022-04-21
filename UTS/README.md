@@ -71,6 +71,8 @@ d)	Garis
 
    Garis berfungsi untuk menghubungkan antar atribut sebagai bentuk hubungan entitas yang model dari diagram ER itu sendiri.
 
+2. Langkah pertama kita harus memahami dulu proses bisnis dari suatu organisasi itu, sebagai contoh, misalkan kita akan mentrasnformasikan proses bisnis yaitu sistem aplikasi yang mengatur suatu perusahaan. Nah Langkah pertama kita harus menelusuri atau mengumpulkan informasi apa saja bagian atau role dari suatu karyawan, berapa gaji dari karyawan berdasarkan bidangnya dll. Setelah mengetahui alur dari proses bisnis suatu perusahaan tersebut kita bisa merancangnya , Tentukan entitas dan atribut. buat folwchart nya, buat diagram ERD nya. lalu normalisasikan data nya. setelah itu bisa langsung dibuat sqlnya. untuk menghindari kesalahan dalam proses pembuatan suatu aplikasi tersebut
+
 # Rancang solusi digital dari satu permasalahan yang ada di sekitar Anda. 
 Sistem Aplikasi Club Futsal Berbasis Web
 
