@@ -1,4 +1,4 @@
-Rayhan TSaury 1207050102
+Rayhan Tsaury 1207050102
 
 # UTS PRAKTIKUM BASIS DATA
 
