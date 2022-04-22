@@ -46,8 +46,90 @@ Hampir sama dengan perintah UPDATE, perintah DELETE juga merupakan perintah dasa
 
 # 2
 
+# Rancangan Solusi Digital dari Suatu Permasalahan di Sekitar Kita
+
+# ERD
 ![image](https://user-images.githubusercontent.com/86096057/164746872-fa471d45-edef-449b-b2e7-5c9dbc4f7b59.png)
 
+# Impelemtasi Basis Data
 ![image](https://user-images.githubusercontent.com/86096057/164752825-7d6003e5-7f75-4e0a-b245-e3f7713a4991.png)
+![image](https://user-images.githubusercontent.com/86096057/164755504-acd5a9f4-7319-4b35-bf5b-0119ac7ea354.png)
+![image](https://user-images.githubusercontent.com/86096057/164755974-ccf80756-d130-4fd1-bdb3-c4ffa6813935.png)
+![image](https://user-images.githubusercontent.com/86096057/164757088-a3a35777-9c07-4049-bb1d-4deb41318edc.png)
+![image](https://user-images.githubusercontent.com/86096057/164757463-7ea4d98a-f800-4b70-accf-0c65d64122e5.png)
+![image](https://user-images.githubusercontent.com/86096057/164757910-b385adff-47a9-405a-9e36-77c3a6b81c12.png)
+
+```sql
+CREATE TABLE
+```
+```python
+CREATE TABLE IF NOT EXISTS public."Admin"
+(
+    id_admin integer NOT NULL,
+    username_admin character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    pass_admin character varying(28) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "Admin_pkey" PRIMARY KEY (id_admin)
+)
+
+TABLESPACE pg_default;
+
+CREATE TABLE IF NOT EXISTS public."Berita"
+(
+    id_berita integer NOT NULL,
+    jenis_berita character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    isi_berita character varying(999) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "Berita_pkey" PRIMARY KEY (id_berita)
+)
+
+TABLESPACE pg_default;
+
+CREATE TABLE IF NOT EXISTS public."Club"
+(
+    nama_club character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    alamat_club character varying(60) COLLATE pg_catalog."default" NOT NULL,
+    sejarah_club character varying(80) COLLATE pg_catalog."default" NOT NULL,
+    prestas_club character varying(90) COLLATE pg_catalog."default" NOT NULL,
+    media_sosial character varying(60) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "Club_pkey" PRIMARY KEY (nama_club)
+)
+
+TABLESPACE pg_default;
+
+CREATE TABLE IF NOT EXISTS public."Official"
+(
+    id_official integer NOT NULL,
+    nama_official character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    jabatan_official character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    ttl_official date NOT NULL,
+    telepon_official integer NOT NULL,
+    alamat_official character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "Official_pkey" PRIMARY KEY (id_official)
+)
+
+TABLESPACE pg_default;
+
+CREATE TABLE IF NOT EXISTS public."Pemain"
+(
+    id_pemain integer NOT NULL,
+    nama_pemain character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    no_pemain integer NOT NULL,
+    ttl_pemain date NOT NULL,
+    alamat_pemain character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    telepon_pemain integer NOT NULL,
+    CONSTRAINT "Pemain_pkey" PRIMARY KEY (id_pemain)
+)
+
+TABLESPACE pg_default;
+
+CREATE TABLE IF NOT EXISTS public."Register"
+(
+    email character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    nama character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    ttl date NOT NULL,
+    CONSTRAINT "Register_pkey" PRIMARY KEY (email)
+)
+
+TABLESPACE pg_default;
+
 
 
