@@ -46,5 +46,5 @@ Hampir sama dengan perintah UPDATE, perintah DELETE juga merupakan perintah dasa
 
 # 2
 
-![image](https://user-images.githubusercontent.com/86096057/162019514-1cf1e7b1-1160-4f56-b3cb-ef8007c4b877.png)
+![image](https://user-images.githubusercontent.com/86096057/164746699-2e298948-3a0d-4032-9d9e-8dc67717a2f7.png)
 
