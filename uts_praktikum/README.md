@@ -48,3 +48,6 @@ Hampir sama dengan perintah UPDATE, perintah DELETE juga merupakan perintah dasa
 
 ![image](https://user-images.githubusercontent.com/86096057/164746872-fa471d45-edef-449b-b2e7-5c9dbc4f7b59.png)
 
+![image](https://user-images.githubusercontent.com/86096057/164752825-7d6003e5-7f75-4e0a-b245-e3f7713a4991.png)
+
+
