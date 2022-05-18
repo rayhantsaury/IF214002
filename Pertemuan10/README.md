@@ -91,3 +91,183 @@ FROM city
 [INNER] JOIN country
   ON city.country_id = country.id;
 ```
+## LEFT JOIN
+### ``LEFT JOIN`` returns all rows from the left table with corresponding rows from the right table. If there's no matching row, ``NULL`` s are returned as values from the second table.
+```python
+SELECT city.name, country.name
+FROM city
+LEFT JOIN country
+  ON city.country_id = country.id;
+```
+## RIGHT JOIN
+### ``RIGHT JOIN`` returns all rows from the right table with corresponding rows from the left table. If there's no matching row, ``NULL`` s are returned as values from the left table.
+```python
+SELECT city.name, country.name
+FROM city
+RIGHT JOIN country
+  ON city.country_id = country.id;
+```
+## FULL JOIN
+### ``FULL JOIN`` (or explicitly ``FULL OUTER JOIN``) returns all rows from both tables – if there's no matching row in the second table, ``NULL`` s are returned.
+```python
+SELECT city.name, country.name
+FROM city
+FULL [OUTER] JOIN country
+  ON city.country_id = country.id;
+```
+## CROSS JOIN
+### ``CROSS JOIN`` returns all possible combinations of rows from both tables. There are two syntaxes available.
+```python
+SELECT city.name, country.name
+FROM city
+CROSS JOIN country;
+
+SELECT city.name, country.name
+FROM city, country;
+```
+## NATURAL JOIN
+### ``NATURAL JOIN`` will join tables by all columns with the same name.
+```python
+SELECT city.name, country.name
+FROM city
+NATURAL JOIN country;
+```
+### ``NATURAL JOIN`` used these columns to match rows:
+``city.id``, ``city.name``, ``country.id``, ``country.name``.
+``NATURAL JOIN`` is very rarely used in practice.
+
+# AGGREGATION AND GROUPING
+### ``GROUP BY`` *groups* together rows that have the same values in specified columns. It computes summaries (aggregates) for each unique combination of values.
+
+## AGGREGATE FUNCTIONS
+- ``avg(expr)`` − average value for rows within the group
+- ``count(expr)`` − count of values for rows within the group
+- ``max(expr)`` − maximum value within the group
+- ``min(expr)`` − minimum value within the group
+- ``sum(expr)`` − sum of values within the group
+
+## EXAMPLE QUERIES
+### Find out the number of cities:
+```python
+SELECT COUNT(*)
+FROM city;
+```
+### Find out the number of cities with non-null ratings:
+```python
+SELECT COUNT(rating)
+FROM city;
+```
+### Find out the number of distinctive country values:
+```python
+SELECT COUNT(DISTINCT country_id)
+FROM city;
+```
+### Find out the smallest and the greatest country populations:
+```python
+SELECT MIN(population), MAX(population)
+FROM country;
+```
+### Find out the total population of cities in respective countries:
+```python
+SELECT country_id, SUM(population)
+FROM city
+GROUP BY country_id;
+```
+### Find out the average rating for cities in respective countries if the average is above 3.0:
+```python
+SELECT country_id, AVG(rating)
+FROM city
+GROUP BY country_id
+HAVING AVG(rating) > 3.0;
+```
+# SUBQUERIES
+### A subquery is a query that is nested inside another query, or inside another subquery. There are different types of subqueries.
+## SINGLE VALUE
+### The simplest subquery returns exactly one column and exactly one row. It can be used with comparison operators `=`, `<`, `<=`, `>`, or `>=`.
+
+### This query finds cities with the same rating as Paris:
+```python
+SELECT name
+FROM city
+WHERE rating = (
+  SELECT rating
+  FROM city
+  WHERE name = 'Paris'
+);
+```
+## MULTIPLE VALUES
+### A subquery can also return multiple columns or multiple rows. Such subqueries can be used with operators ``IN``, ``EXISTS``, ``ALL``, or ``ANY``.
+### This query finds cities in countries that have a population above 20M:
+```python
+SELECT name
+FROM city
+WHERE country_id IN (
+  SELECT country_id
+  FROM country
+  WHERE population > 20000000
+);
+```
+## CORRELATED
+### A correlated subquery refers to the tables introduced in the outer query. A correlated subquery depends on the outer query. It cannot be run independently from the outer query.
+
+### This query finds cities with a population greater than the average population in the country:
+```python
+SELECT *
+FROM city main_city
+WHERE population > (
+  SELECT AVG(population)
+  FROM city average_city
+  WHERE average_city.country_id = main_city.country_id
+);
+```
+### This query finds countries that have at least one city:
+```python
+SELECT name
+FROM country
+WHERE EXISTS (
+  SELECT *
+  FROM city
+  WHERE country_id = country.id
+);
+```
+# SET OPERATIONS
+### Set operations are used to combine the results of two or more queries into a single result. The combined queries must return the same number of columns and compatible data types. The names of the corresponding columns can be different
+## UNION
+### UNION combines the results of two result sets and removes duplicates. UNION ALL doesn't remove duplicate rows.
+
+### This query displays German cyclists together with German skaters:
+```python
+SELECT name
+FROM cycling
+WHERE country = 'DE'
+UNION / UNION ALL
+SELECT name
+FROM skating
+WHERE country = 'DE';
+```
+## INTERSECT
+### `INTERSECT` returns only rows that appear in both result sets.
+
+This query displays German cyclists who are also German skaters at the same time:
+```python
+SELECT name
+FROM cycling
+WHERE country = 'DE'
+INTERSECT
+SELECT name
+FROM skating
+WHERE country = 'DE';
+```
+## EXCEPT
+### `EXCEPT` returns only the rows that appear in the first result set but do not appear in the second result set.
+
+### This query displays German cyclists unless they are also German skaters at the same time:
+```python
+SELECT name
+FROM cycling
+WHERE country = 'DE'
+EXCEPT / MINUS
+SELECT name
+FROM skating
+WHERE country = 'DE';
+```
