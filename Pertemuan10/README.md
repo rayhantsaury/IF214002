@@ -1,3 +1,6 @@
+# TUGAS :
+1. Buat infografik / cheatsheet dari perintah-perintah MySQL di atas (boleh yang mau pake PostgreSQL)
+
 # QUERYING SINGLE TABLE
 ## Fetch all columns from the ``country`` table:
 ```python
@@ -270,4 +273,42 @@ EXCEPT / MINUS
 SELECT name
 FROM skating
 WHERE country = 'DE';
+```
+# TUGAS :
+2. Buat query untuk mencari penduduk berusia diatas 25 tahun yang berada di kabupaten 3204 dari [data ini](https://github.com/insanalamin/IF214002/blob/main/pertemuan10/penduduk.sql)
+
+### Cari Data umur penduduk di kabupaten 3204
+```python
+SELECT id, nama_lengkap, kode_kabupaten, nomor_hp, gender, tanggal_lahir, ijazah_terakhir, pekerjaan, penghasilan_bulanan, TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) AS umur FROM penduduk
+WHERE TIMESTAMPDIFF(YEAR, tanggal_lahir, CURDATE()) > 25 AND kode_kabupaten='3204';
+```
+### Cari Data umur penduduk di kabupaten 3204 pake SUM()
+```python
+SELECT id, nama_lengkap, kode_kabupaten, nomor_hp, gender, tanggal_lahir, ijazah_terakhir, pekerjaan, penghasilan_bulanan, SUM(CURRENT_DATE - tanggal_lahir) AS umur FROM penduduk
+GROUP BY id
+HAVING SUM(tanggal_lahir) < 1997 AND kode_kabupaten='3204';
+```
+# TUGAS
+3. Nilai tambah, untuk yang menambahkan perintah-perintah MySQL lainnya
+
+### Sorting Nama Penduduk
+
+```python
+SELECT * FROM penduduk 
+ORDER BY nama_lengkap;
+```
+### sort 2 kolom
+
+```python
+SELECT *
+ FROM penduduk
+ ORDER BY nama_lengkap ASC, gender DESC;
+ ```
+ 
+### Sort data umur Penduduk Lebih 25 tahun di ``Data Penduduk``
+
+```python
+SELECT id, nama_lengkap, kode_kabupaten, nomor_hp,gender,ijazah_terakhir, pekerjaan, penghasilan_bulanan , SUM(tanggal_lahir) FROM penduduk
+GROUP BY nama_lengkap
+HAVING SUM(tanggal_lahir)<1997;
 ```
