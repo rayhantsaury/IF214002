@@ -29,6 +29,7 @@ ORDER BY rating DESC;
 
 ALIASES
 -----
+
 ## COLUMNS
 ```python
 SELECT name AS city_name
