@@ -1,6 +1,5 @@
 ## Data Definition Language (DDL)
 ### Create Table
-
 #### Admin
 ```python
 CREATE TABLE IF NOT EXISTS public."Admin"
@@ -14,7 +13,6 @@ CREATE TABLE IF NOT EXISTS public."Admin"
 TABLESPACE pg_default;
 
 ```
-
 #### Berita
 ```python
 CREATE TABLE IF NOT EXISTS public."Berita"
@@ -27,7 +25,6 @@ CREATE TABLE IF NOT EXISTS public."Berita"
 
 TABLESPACE pg_default;
 ```
-
 #### Club
 ```python
 CREATE TABLE IF NOT EXISTS public."Club"
@@ -42,7 +39,6 @@ CREATE TABLE IF NOT EXISTS public."Club"
 
 TABLESPACE pg_default;
 ```
-
 #### Official
 ```python
 CREATE TABLE IF NOT EXISTS public."Official"
@@ -58,7 +54,6 @@ CREATE TABLE IF NOT EXISTS public."Official"
 
 TABLESPACE pg_default;
 ```
-
 #### Pemain
 ```python
 CREATE TABLE IF NOT EXISTS public."Pemain"
@@ -74,7 +69,6 @@ CREATE TABLE IF NOT EXISTS public."Pemain"
 
 TABLESPACE pg_default;
 ```
-
 #### Register
 ```python
 CREATE TABLE IF NOT EXISTS public."Register"
@@ -88,9 +82,9 @@ CREATE TABLE IF NOT EXISTS public."Register"
 TABLESPACE pg_default;
 ```
 
+
 ### Data Manipulation Language (DML)
 ### Insert Data
-
 #### Admin
 ```python
 INSBeritaERT INTO "Admin" (id_admin,username_admin,pass_admin) VALUES (
@@ -99,7 +93,6 @@ INSBeritaERT INTO "Admin" (id_admin,username_admin,pass_admin) VALUES (
   'uzumaki1'
 ); 
 ```
-
 #### Berita
 ```python
 INSERT INTO "Berita" (id_berita,jenis_berita,isi_berita) VALUES (
@@ -108,7 +101,6 @@ INSERT INTO "Berita" (id_berita,jenis_berita,isi_berita) VALUES (
   'Senin'
 );
 ```
-
 #### Club
 ```python
 INSERT INTO "Club" (nama_club,alamat_club,sejarah_club,prestas_club,media_sosial) VALUES (
@@ -119,7 +111,6 @@ INSERT INTO "Club" (nama_club,alamat_club,sejarah_club,prestas_club,media_sosial
   'IG: @fcomicron'
 ); 
 ```
-
 #### Official
 ```python
 INSERT INTO "Official" (id_official,nama_official,jabatan_official,alamat_official,telepon_official,ttl_official) VALUES (
@@ -131,7 +122,6 @@ INSERT INTO "Official" (id_official,nama_official,jabatan_official,alamat_offici
   'Garut, 19 Januari 2000'
 ); 
 ```
-
 #### Pemain
 ```python
 INSERT INTO "Pemain" (id_pemain,nama_pemain,no_pemain,alamat_pemain,ttl_pemain,telepon_pemain) VALUES (
@@ -143,7 +133,6 @@ INSERT INTO "Pemain" (id_pemain,nama_pemain,no_pemain,alamat_pemain,ttl_pemain,t
   '082261183474'
 ); 
 ```
-
 #### Register
 ```python
 INSERT INTO "Register" (email,nama,ttl) VALUES (
