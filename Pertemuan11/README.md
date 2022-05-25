@@ -86,6 +86,7 @@ TABLESPACE pg_default;
 ### Data Manipulation Language (DML)
 ### Insert Data
 #### Admin
+![admin](https://user-images.githubusercontent.com/86096057/170278815-a39ab735-ad23-4c37-b66b-0925d6f3669f.png)
 ```python
 INSBeritaERT INTO "Admin" (id_admin,username_admin,pass_admin) VALUES (
   '111',
@@ -94,6 +95,7 @@ INSBeritaERT INTO "Admin" (id_admin,username_admin,pass_admin) VALUES (
 ); 
 ```
 #### Berita
+![berita](https://user-images.githubusercontent.com/86096057/170278742-13bac5b4-7a46-43fd-b754-599ed8d743a7.png)
 ```python
 INSERT INTO "Berita" (id_berita,jenis_berita,isi_berita) VALUES (
   '111',
@@ -102,6 +104,7 @@ INSERT INTO "Berita" (id_berita,jenis_berita,isi_berita) VALUES (
 );
 ```
 #### Club
+![club](https://user-images.githubusercontent.com/86096057/170278682-c738ebaf-2fe4-484c-9517-6685889f85fb.png)
 ```python
 INSERT INTO "Club" (nama_club,alamat_club,sejarah_club,prestas_club,media_sosial) VALUES (
   'FC Omicron',
@@ -112,6 +115,7 @@ INSERT INTO "Club" (nama_club,alamat_club,sejarah_club,prestas_club,media_sosial
 ); 
 ```
 #### Official
+![official](https://user-images.githubusercontent.com/86096057/170278623-5eb7dbda-ed03-4929-80d8-ac4f38717889.png)
 ```python
 INSERT INTO "Official" (id_official,nama_official,jabatan_official,alamat_official,telepon_official,ttl_official) VALUES (
   '1',
@@ -123,6 +127,7 @@ INSERT INTO "Official" (id_official,nama_official,jabatan_official,alamat_offici
 ); 
 ```
 #### Pemain
+![pemain](https://user-images.githubusercontent.com/86096057/170278594-6f09be63-af33-49b5-98f1-81747bea0359.png)
 ```python
 INSERT INTO "Pemain" (id_pemain,nama_pemain,no_pemain,alamat_pemain,ttl_pemain,telepon_pemain) VALUES (
   '1',
@@ -134,6 +139,7 @@ INSERT INTO "Pemain" (id_pemain,nama_pemain,no_pemain,alamat_pemain,ttl_pemain,t
 ); 
 ```
 #### Register
+![register](https://user-images.githubusercontent.com/86096057/170278545-ee594e01-ace8-4732-9973-3e9c1ffd5cb1.png)
 ```python
 INSERT INTO "Register" (email,nama,ttl) VALUES (
   'bbs12@gmail.com',
