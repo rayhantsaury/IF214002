@@ -147,3 +147,62 @@ INSERT INTO "Register" (email,nama,ttl) VALUES (
   'Jakarta, 18 Maret 1997'
 );  Register
 ```
+
+
+### Data Queri Language (DQL)
+```python
+SELECT 
+S.id_admin id_admin, 
+R.jenis_berita jenis_berita,
+R.isi_berita isi_berita
+FROM "Admin" S
+INNER JOIN "Berita" R
+ON S.id_admin = R.id_berita
+```
+```python
+SELECT 
+S.id_admin id_admin, 
+R.nama_club nama_club,
+R.alamat_club alamat_club,
+R.sejarah_club sejarah_club,
+R.prestas_club prestas_club,
+R.media_sosial media_sosial
+FROM "Admin" S
+INNER JOIN "Club" R
+ON S.id_admin = R.id_club
+```
+```python
+SELECT 
+S.id_admin id_admin, 
+R.nama_official nama_official,
+R.jabatan_official jabatan_official,
+R.alamat_official alamat_official,
+R.telepon_official telepon_official,
+R.ttl_official ttl_official
+FROM "Admin" S
+INNER JOIN "Official" R
+ON S.id_admin = R.id_official
+```
+
+```python
+SELECT 
+S.id_admin id_admin, 
+R.nama_pemain nama_pemain,
+R.no_pemain no_pemain,
+R.alamat_pemain alamat_pemain,
+R.ttl_pemain ttl_pemain,
+R.telepon_pemain telepon_pemain
+FROM "Admin" S
+INNER JOIN "Pemain" R
+ON S.id_admin = R.id_pemain
+```
+```python
+SELECT 
+S.id_admin id_admin, 
+R.email email,
+R.nama nama,
+R.ttl ttl
+FROM "Admin" S
+INNER JOIN "Register" R
+ON S.id_admin = R.nama
+```
