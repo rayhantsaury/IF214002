@@ -198,11 +198,13 @@ ON S.id_admin = R.id_pemain
 ```
 ```python
 SELECT 
-S.id_admin id_admin, 
+SELECT 
+S.id_admin id_admin,
+R.id id,
 R.email email,
 R.nama nama,
 R.ttl ttl
-FROM "Admin" S
-INNER JOIN "Register" R
-ON S.id_admin = R.nama
+FROM "admin" S
+INNER JOIN "register" R
+ON S.id_admin = R.id
 ```
