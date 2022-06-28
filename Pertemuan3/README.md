@@ -7,7 +7,7 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 3. Menampilkan halaman berita
 4. menampilkan halaman register untuk pemain baru yang mau bergabung
 
-![image](https://user-images.githubusercontent.com/86096057/161379151-0ab12ac4-5f23-429b-a2a5-ed9538435e18.png)
+![futsal](https://user-images.githubusercontent.com/86096057/176128721-e332e3d9-97e0-4f28-b579-83511b42fa1f.png)
 
 ## Entitas dan Atribut
 Admin
