@@ -1,2 +1,3 @@
-![image](https://user-images.githubusercontent.com/86096057/164759869-c1063109-7e19-4d90-9714-179cd6e0c99b.png)
+![omicron](https://user-images.githubusercontent.com/86096057/176133917-739b5153-41b4-4670-bfa0-ff012e0da351.png)
+
 
