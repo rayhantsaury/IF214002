@@ -1,43 +1,47 @@
-![image](https://user-images.githubusercontent.com/86096057/162011137-243d2fd9-6d4e-4397-9267-774bf4f215bd.png)
+![omicron](https://user-images.githubusercontent.com/86096057/176133485-a36126b9-283c-4b9c-abc7-4d693fb6aa19.png)
 
+# Entitas dan Atribut
+### Admin
+1. id Admin (PK)
+2. User name
+3. Password
 
-## Entitas dan Atribut
-Note :
-*Primary Key
+### Club
+1. Id Admin (Fk)
+2. Id Club (PK)
+3. Nama Club
+4. Alamat Club
+5. Sejarah Club 
+6. Prestasi Club
+7. Media Sosial
 
-Admin
-1. *User name
-2. *Password
+### Official
+1. Id Admin (Fk)
+2. Id Official (PK)
+3. Nama
+4. Jabatan
+5. Alamat
+6. Telepon
+7. Tempat Tanggal Lahir 
 
-Club
-1. Informasi club
-2. Alamat 
-3. *Sejarah Club 
-4. Prestasi
-
-Official
-1. *Id
-2. Nama
-3. Jabatan
-4. *No Hp 
-5. Tempat Tanggal Lahir 
-6. Alamat
-
-Pemain
-1. *Id 
-2. Nama
-3. *No Punggung
-4. Posisi
-5. *No Hp
-6. Tempat Tanggal Lahir
+### Pemain
+1. Id Admin (FK)
+2. Id Pemain (PK)
+3. Nama
+4. Nomor
+5. Tempat Lahir
+6. Tanggal Lahir
 7. Alamat
+8. Telepon
 
-Berita
-1. *Id
-2. Jenis Berita
-3. Isi Berita
+### Berita
+1. Id Admin (FK)
+2. Id Berita (PK)
+3. Jenis Berita
+4. Isi Berita
 
-Register 
-1. *Email
-2. Nama
-3. Tempat Tanggal Lahir
+### Register 
+1. Id Admin (FK)
+2. Id Register (PK)
+3. Email
+4. Password
