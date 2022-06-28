@@ -10,10 +10,47 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 4. menampilkan halaman register untuk pemain baru yang mau bergabung
 
 
-## Entitas dan Atribut
-1. Admin (user_name, password)
-2. Club (informasi_club, alamat, sejarah_club, prestasi, media_sosial)
-3. Official (id, nama, jabatan, no_hp, tempat_tanggal_lahir, alamat)
-4. Pemain (id, nama, no_punggung, posisi, no_hp, tempat_tanggal_lahir, alamat)
-5. Berita (jenis_berita, isi_berita)
-6. Register (email, nama, tempat_tanggal_lahir)
+# Entitas dan Atribut
+### Admin
+1. id Admin (PK)
+2. User name
+3. Password
+
+### Club
+1. Id Admin (Fk)
+2. Id Club (PK)
+3. Informasi club
+4. Alamat 
+5. Sejarah Club 
+6. Prestasi
+
+### Official
+1. Id Admin (Fk)
+2. Id Official (PK)
+3. Nama
+4. Jabatan
+5. *No Hp 
+6. Tempat Tanggal Lahir 
+7. Alamat
+
+### Pemain
+1. Id Admin (FK)
+2. Id Pemain (PK)
+3. Nama
+4. No Punggung
+5. Posisi
+6. No Hp
+7. Tempat Tanggal Lahir
+8. Alamat
+
+### Berita
+1. Id Admin (FK)
+2. Id Berita (PK)
+3. Jenis Berita
+4. Isi Berita
+
+### Register 
+1. Id Admin (FK)
+2. Id Register (PK)
+3. Email
+4. Password
