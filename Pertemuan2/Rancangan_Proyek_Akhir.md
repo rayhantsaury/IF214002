@@ -19,29 +19,30 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 ### Club
 1. Id Admin (Fk)
 2. Id Club (PK)
-3. Informasi club
-4. Alamat 
+3. Nama Club
+4. Alamat Club
 5. Sejarah Club 
-6. Prestasi
+6. Prestasi Club
+7. Media Sosial
 
 ### Official
 1. Id Admin (Fk)
 2. Id Official (PK)
 3. Nama
 4. Jabatan
-5. *No Hp 
-6. Tempat Tanggal Lahir 
-7. Alamat
+5. Alamat
+6. Telepon
+7. Tempat Tanggal Lahir 
 
 ### Pemain
 1. Id Admin (FK)
 2. Id Pemain (PK)
 3. Nama
-4. No Punggung
-5. Posisi
-6. No Hp
-7. Tempat Tanggal Lahir
-8. Alamat
+4. Nomor
+5. Tempat Lahir
+6. Tanggal Lahir
+7. Alamat
+8. Telepon
 
 ### Berita
 1. Id Admin (FK)
