@@ -8,9 +8,9 @@
 |2| rjljldn|Gdjcks29|
 
 ## Club
-|🔑Nama_Club|Alamat_Club|Sejarah_Club|Prestasi_Club|Media_Sosiasl_Club|
-|---|-------|------|--|---|
-|FC Omicron|Cigedug-Garut|Didirikan tahun 2022|Juara 2 Trofeo U-15|Ig : @fcomicron|
+|🔑id_Club|id_admin|Alamat_Club|Sejarah_Club|Prestasi_Club|Media_Sosiasl_Club|
+|---|-------|------|--|---|---|
+|1|01|FC Omicron|Cigedug-Garut|Didirikan tahun 2022|Juara 2 Trofeo U-15|Ig : @fcomicron|
 
 
 ## Official_Club
