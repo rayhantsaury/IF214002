@@ -118,25 +118,21 @@ TABLESPACE pg_default;
 ### Data Manipulation Language (DML)
 ### Insert Data
 #### Admin
-![admin](https://user-images.githubusercontent.com/86096057/170278815-a39ab735-ad23-4c37-b66b-0925d6f3669f.png)
 ```python
 INSERT INTO public."admin" (id_admin,username_admin,pass_admin) VALUES
 	 (1,'rybts05','ryn000'); 
 ```
 #### Berita
-![berita](https://user-images.githubusercontent.com/86096057/170278742-13bac5b4-7a46-43fd-b754-599ed8d743a7.png)
 ```python
 INSERT INTO public.berita (id_berita,jenis_berita,isi_berita,id_admin) VALUES
 	 (1,'Jadwal Latihan','Hari Senin',NULL);
 ```
 #### Club
-![club](https://user-images.githubusercontent.com/86096057/170278682-c738ebaf-2fe4-484c-9517-6685889f85fb.png)
 ```python
 INSERT INTO public.club (id_club,nama_club,alamat_club,sejarah_club,prestasi_club,medsos,id_admin) VALUES
 	 (1,'FC Omicron','Cigedug-Garut','Didirikan Tahun 2021','Juara antar kota Piala gubernur','fcomicron',NULL);
 ```
 #### Official
-![official](https://user-images.githubusercontent.com/86096057/170278623-5eb7dbda-ed03-4929-80d8-ac4f38717889.png)
 ```python
 INSERT INTO public.official (id_official,nama_official,jabatan_official,alamat_official,telepon_official,ttl_official,id_admin) VALUES
 	 (1,'Rizal Jalaludin','Pelatih Kepala','Cigedug-Garut','081234567891','Garut, 19 Januari 2000',NULL),
@@ -147,7 +143,6 @@ INSERT INTO public.official (id_official,nama_official,jabatan_official,alamat_o
 	 (6,'Robby Herdiana','Bendahara Club','Cigedug-Garut','081734567896','Garut, 10 Agustus 2001',NULL);
 ```
 #### Pemain
-![pemain](https://user-images.githubusercontent.com/86096057/170278594-6f09be63-af33-49b5-98f1-81747bea0359.png)
 ```python
 INSERT INTO public.tbpemain (id_pemain,nama_pemain,nomor_pemain,tempat_lahir,tanggal_lahir,telepon_pemain,alamat_pemain,id_admin) VALUES
 	 (1,'Rayhan Tsaury','15','Garut','2002-10-15','082261183474','Cikajang-Garut',NULL),
@@ -168,7 +163,6 @@ INSERT INTO public.tbpemain (id_pemain,nama_pemain,nomor_pemain,tempat_lahir,tan
 	 (15,'Muhammad Najril','7','Garut','2006-01-29','081234567396','Cigedug-Garut',NULL);
 ```
 #### Register
-![register](https://user-images.githubusercontent.com/86096057/170278545-ee594e01-ace8-4732-9973-3e9c1ffd5cb1.png)
 ```python
 INSERT INTO public.register (id_register,email,"password",id_admin) VALUES
 	 (1,'bbs12@gmail.com','bismillah',NULL);
