@@ -9,46 +9,47 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 
 ![omicron](https://user-images.githubusercontent.com/86096057/176130512-e39df2f5-f5e4-4f50-92ef-e0b393c4b710.png)
 
-## Entitas dan Atribut
-Admin
+# Entitas dan Atribut
+### Admin
 1. id Admin (PK)
 2. User name
 3. Password
 
-Club
+### Club
 1. Id Admin (Fk)
 2. Id Club (PK)
-3. Informasi club
-4. Alamat 
+3. Nama Club
+4. Alamat Club
 5. Sejarah Club 
-6. Prestasi
+6. Prestasi Club
+7. Media Sosial
 
-Official
+### Official
 1. Id Admin (Fk)
 2. Id Official (PK)
 3. Nama
 4. Jabatan
-5. *No Hp 
-6. Tempat Tanggal Lahir 
-7. Alamat
+5. Alamat
+6. Telepon
+7. Tempat Tanggal Lahir 
 
-Pemain
+### Pemain
 1. Id Admin (FK)
 2. Id Pemain (PK)
 3. Nama
-4. No Punggung
-5. Posisi
-6. No Hp
-7. Tempat Tanggal Lahir
-8. Alamat
+4. Nomor
+5. Tempat Lahir
+6. Tanggal Lahir
+7. Alamat
+8. Telepon
 
-Berita
+### Berita
 1. Id Admin (FK)
 2. Id Berita (PK)
 3. Jenis Berita
 4. Isi Berita
 
-Register 
+### Register 
 1. Id Admin (FK)
 2. Id Register (PK)
 3. Email
