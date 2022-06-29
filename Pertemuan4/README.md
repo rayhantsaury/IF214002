@@ -1,4 +1,4 @@
-![omicron](https://user-images.githubusercontent.com/86096057/176133485-a36126b9-283c-4b9c-abc7-4d693fb6aa19.png)
+![image](https://user-images.githubusercontent.com/86096057/176484834-902efa42-5414-4a16-ac34-2ce4c2c319eb.png)
 
 # Entitas dan Atribut
 ### Admin
