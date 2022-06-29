@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/86096057/159870845-b95c7510-9993-4af6-a9c9-11f571dd1271.png)
+![Diagram ERD drawio](https://user-images.githubusercontent.com/86096057/176486023-7ad11487-214f-4c70-b48a-c076df338bed.png)
 
 # Sistem Aplikasi Club Futsal Berbasis Web
 
