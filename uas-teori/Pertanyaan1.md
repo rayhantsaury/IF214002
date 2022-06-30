@@ -58,11 +58,10 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 
 ---
 
+
 ## Query SQL
-### [DDL,DML,DQL] 
-(https://github.com/rayhanyeager/IF214002/tree/main/Pertemuan11) - SQL Menggunakan DB pgsql
-- [Webservice]
-(https://github.com/rayhanyeager/IF214002/blob/main/Pertemuan14/webservice.php) - Tes webservice
-- [Visualisasi Data]
-(https://github.com/rayhanyeager/IF214002/blob/main/Pertemuan14/visualisasiData.php) - Menampilkan data Query jumlah pemain berdasarkan tahun lahir
+### [DDL,DML,DQL](https://github.com/rayhanyeager/IF214002/tree/main/Pertemuan11) - SQL Menggunakan DB pgsql
+- [Webservice](https://github.com/rayhanyeager/IF214002/blob/main/Pertemuan14/webservice.php) - Tes webservice
+- [Visualisasi Data](https://github.com/rayhanyeager/IF214002/blob/main/Pertemuan14/visualisasiData.php) - Menampilkan data Query jumlah pemain berdasarkan tahun lahir
+
 ---
