@@ -61,3 +61,6 @@ Bahasa / framework yang bisa digunakan:
 1. Menentukan bentuk visualisasi data berdasarkan masalah2 kritikal prioritas
 2. Request HTTP ke web service
 3. Menghubungkan data JSON ke library visualisasi data
+
+## Video Presentasi
+[youtube](https://youtu.be/W5ySi_Vv1CQ)
