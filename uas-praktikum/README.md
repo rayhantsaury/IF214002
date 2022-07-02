@@ -67,4 +67,6 @@ Aplikasi ini dibuat untuk memudahkan management club dan penggemar mengelola ser
 ---
 
 ## Video Presentasi
-[youtube] (https://youtu.be/-siuXVbLROk](https://youtu.be/W5ySi_Vv1CQ)
+[youtube] (https://youtu.be/W5ySi_Vv1CQ)
+
+---
